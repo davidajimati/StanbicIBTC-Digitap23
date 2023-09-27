@@ -243,16 +243,17 @@ header {
     justify-content: space-around;
 }
 
-.feats {
-    margin: auto 30px auto auto;
-    height: fit-content;
-    width: fit-content;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 15px;
-}
-
 .icon {
     text-align: center;
+}
+@media (min-width: 768px) {
+    .feats {
+        margin: auto 30px auto auto;
+        height: fit-content;
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px;
+    }
 }

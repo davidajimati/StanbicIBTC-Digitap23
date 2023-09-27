@@ -17,7 +17,7 @@
         margin: 0;
         padding: 1;
     }
-
+    
     .heroTexts h1 {
         font-size: 50px;
     }
@@ -36,5 +36,14 @@
         height: 30px;
     }
 
+    .feats {
+        margin: auto;
+        height: fit-content;
+        padding: 10px;
+        max-width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 
 }
