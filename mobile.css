@@ -13,7 +13,7 @@
     }
 
     .hero {
-        height: 50vh;
+        height: 55vh;
         margin: 0;
         padding: 1;
     }
@@ -43,11 +43,14 @@
         align-content: center;
         justify-items: center;
         padding: 10px;
+        background-size: 30%;
     }
+
     .feats {
         margin: auto;
         height: fit-content;
         padding: 10px;
+        padding-bottom: 110px;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
