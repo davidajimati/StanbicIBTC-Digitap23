@@ -95,6 +95,11 @@ h4 {
     font-family: Clash Display;
 }
 
+h2,
+.flow h3 {
+    letter-spacing: 0.7px;
+}
+
 p {
     font-family: 'Public Sans', sans-serif;
 }
@@ -349,11 +354,6 @@ header {
     border-bottom: 1px white solid;
 }
 
-.ADoub p {
-    border-top: 1px white solid;
-    border-bottom: 1px white solid;
-}
-
 .one-T {
     border-radius: 0px 25px 25px 0px;
     border-right: 1px white solid;
@@ -372,6 +372,22 @@ header {
 
 .five-T {
     border: none;
+}
+
+.doubLeft {
+    padding: 5px;
+    margin: 5px;
+    border: 1px white solid;
+    border-left: none;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.doubRight {
+    padding: 5px;
+    margin: 5px;
+    border: 1px white solid;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
 }
 
 /* -------REF----------- */
