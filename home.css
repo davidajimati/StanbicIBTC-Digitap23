@@ -130,6 +130,8 @@ header {
     border: solid white 2px;
     background-color: transparent;
     color: white;
+    font-family: "MADEOuterSans-Thin";
+    font-size: 13;
 }
 
 .logo {

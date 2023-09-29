@@ -23,14 +23,22 @@
         padding: 10px;
     }
 
+    .heroTexts {
+        width: 359px;
+    }
+
     .heroTexts h1 {
         font-size: 60px;
-        width: 80%;
+        width: 100%;
     }
 
     .heroTexts p {
+        font-size: 13px;
+        max-width: 100%;
+    }
+
+    #hB {
         font-size: 12px;
-        max-width: 78%;
     }
 
     header {
