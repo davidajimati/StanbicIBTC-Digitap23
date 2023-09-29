@@ -2,6 +2,11 @@
 
 @media (min-width: 320px) and (max-width: 750px) {
 
+    .grand-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
     .d23 {
         display: none;
     }
@@ -15,16 +20,17 @@
     .hero {
         height: 55vh;
         margin: 0;
-        padding: 1;
+        padding: 10px;
     }
 
     .heroTexts h1 {
-        font-size: 50px;
+        font-size: 60px;
+        width: 80%;
     }
 
     .heroTexts p {
-        font-size: 15px;
-        max-width: 350px;
+        font-size: 12px;
+        max-width: 78%;
     }
 
     header {
@@ -47,13 +53,21 @@
     }
 
     .feats {
+        margin: auto;
         height: fit-content;
         padding: 10px;
         padding-bottom: 110px;
         display: flex;
+        max-width: 100%;
+        width: 90%;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
+    }
+
+    .featbox h3 {
+        font-size: 22px;
+        font-weight: 500;
     }
 
     .flow {
@@ -80,5 +94,14 @@
         display: flex;
         gap: 10px;
         flex-direction: column;
+    }
+
+    .flowcharts p {
+        font-size: 15px;
+    }
+
+    .flow h3 {
+        font-size: 22px;
+        font-weight: 500;
     }
 }
