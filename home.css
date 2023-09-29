@@ -299,7 +299,6 @@ header {
 }
 
 .step {
-    border: 1px solid #f0f0f0;
     border-radius: 3px;
     display: flex;
     padding: 10px;
@@ -315,10 +314,7 @@ header {
 .double {
     flex-direction: column;
     align-items: center;
-}
-
-.texts {
-    /* border: 1px white solid */
+    gap: 0px;
 }
 
 .flow h3 {
@@ -344,6 +340,38 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
+}
+
+.texts {
+    padding: 15px;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.ADoub p {
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.one-T {
+    border-radius: 0px 25px 25px 0px;
+    border-right: 1px white solid;
+}
+
+.two-T {
+    border-radius: 25px 0px 0px 25px;
+    border-left: 1px white solid;
+}
+
+.last {
+    border-radius: 25px 0px 25px 0px;
+    border: 1px white solid;
+    border-radius: none;
+}
+
+.five-T {
+    border: none;
 }
 
 /* -------REF----------- */
