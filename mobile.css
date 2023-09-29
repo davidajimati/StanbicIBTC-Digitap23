@@ -1,6 +1,6 @@
 /* -----------MOBILE------------ */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 700px) {
 
     .d23 {
         display: none;
@@ -57,8 +57,16 @@
     }
 
     .flow {
-        background-color: #00005c;
+        /* background-color: #00005c;
         color: white;
-        padding: 20px;
+        padding: 20px; */
+
+        /* height: fit-content;
+        display: flex;
+        flex-direction: row; */
+        /* max-width: 90%; */
+        /* grid-template: 50px auto / 1fr; */
+        /* gap: 30px; */
+        /* padding: 50px 10px; */
     }
 }
