@@ -122,7 +122,8 @@ header {
     padding: 20px 0px;
 }
 
-#hB {
+#hB,
+#heroButton {
     width: 180px;
     height: 40px;
     padding: 12px, 24px, 12px, 24px;
@@ -131,7 +132,11 @@ header {
     background-color: transparent;
     color: white;
     font-family: "MADEOuterSans-Thin";
-    font-size: 13;
+    font-size: 13px;
+}
+
+#heroButton {
+    font-size: 15px;
 }
 
 .logo {

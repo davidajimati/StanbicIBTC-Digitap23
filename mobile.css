@@ -37,7 +37,8 @@
         max-width: 100%;
     }
 
-    #hB {
+    #hB,
+    #heroButton {
         font-size: 12px;
     }
 
