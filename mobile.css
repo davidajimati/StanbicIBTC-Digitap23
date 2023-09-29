@@ -74,6 +74,13 @@
         justify-content: center;
     }
 
+    .feats {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        grid-template: 1fr/ 1fr;
+    }
+
     .featbox h3 {
         font-size: 22px;
         font-weight: 500;
