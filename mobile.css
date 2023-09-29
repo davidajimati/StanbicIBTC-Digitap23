@@ -19,11 +19,11 @@
     }
 
     .heroTexts h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .heroTexts p {
-        font-size: 15px;
+        font-size: 12px;
         max-width: 350px;
     }
 
@@ -51,6 +51,7 @@
         padding: 10px;
         padding-bottom: 110px;
         display: flex;
+        width: 100%;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
