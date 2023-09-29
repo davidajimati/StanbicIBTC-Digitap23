@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link href="https://db.onlinewebfonts.com/c/ecc2500852381881903d0a28b3d8d052?family=MADEOuterSans-Thin"
         rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -20,7 +22,7 @@
             <header class="heading">
                 <div class="logo"></div>
                 <h3 class="d23">DIGITAP GRADUATES'23</h3>
-                <button id="hB">The Team</button>
+                <a href="/team"><button id="hB">The Team</button></a>
             </header>
 
             <div class="heroCenter">
@@ -29,15 +31,21 @@
                     <p id="heroDesc">Bank by voice with Your new A.I powered banking assistant. Here to help you with
                         lightening
                         fast and easy banking experience</p>
-                    <button id="heroButton">All about blu</button>
+                    <div class="scrolBut">
+                        <button id="heroButton">All about blu</button>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
                 </div>
             </div>
 
-            <div class="subsidiaries"></div>
+            <div class=" subsidiaries">
+            </div>
         </div>
 
         <div class="features">
-            <div class="fHead">
+            <div id="target" class="fHead">
                 <p class="fp1">Unique Value. Unique Product</p>
                 <h2>Features of BLU</h2>
             </div>
@@ -92,7 +100,7 @@
                 </div>
 
                 <div class="featbox">
-                    <div class="icon" style="background-image: url('images/icons/transaction.png')"></div>
+                    <div class="icon" style="background-image: url('images/icons/transaction.png');"></div>
                     <div>
                         <h3>Transaction Accuracy Assurance</h3>
                         <p>Your new AI powered assistant here to make your every banking need happen at break-neck
@@ -111,7 +119,7 @@
 
             <div class="flowcharts">
                 <div class="step single">
-                    <div class="img one-I"></div>
+                    <div class="img one-I" style="background-image: url('images/steps/1.png')"></div>
                     <div class="texts one-T">
                         <h3 style="margin-bottom: 10px;">Simplicity</h3>
                         <p>simply init chat in stoup swallow wearing sparrow of
@@ -127,7 +135,8 @@
                             me.
                         </p>
                     </div>
-                    <div class="img two-I"></div>
+                    <div class="img two-I" style="background-image: url('images/steps/2.png')"></div>
+
                 </div>
 
                 <div class="step double">
@@ -135,13 +144,13 @@
                     <div>
                         <div class="dText">
                             <div class="ADoub doubLeft">
-                                <div class="img three-I1"></div>
+                                <div class="img three-I1" style="background-image: url('images/steps/3.png')"></div>
                                 <p class="three-T1">simply ini drift of stoup sparrow of me.</p>
                             </div>
 
                             <div class="ADoub doubRight">
                                 <p class="three-T2">simply ift of the flow sparrow of me.</p>
-                                <div class="img three-I2"></div>
+                                <div class="img three-I2" style="background-image: url('images/steps/3.png')"></div>
                             </div>
                         </div>
                     </div>
@@ -151,18 +160,18 @@
                     <h3 style="margin-bottom: 10px;">Consistency and BlaBla</h3>
                     <div class="dText">
                         <div class="ADoub doubLeft">
-                            <div class="img four-I1"></div>
+                            <div class="img four-I1" style="background-image: url('images/steps/4.png')"></div>
                             <p class="four-T1">simply init drift of the flow chat</p>
                         </div>
                         <div class="ADoub doubRight">
                             <p class="four-T2">simply ininough drift of the flow chat</p>
-                            <div class="img four-I2"></div>
+                            <div class="img four-I2" style="background-image: url('images/steps/4.png')"></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="step single last">
-                    <div class="img five-I"></div>
+                    <div class="img five-I" style="background-image: url('images/steps/5.png')"></div>
                     <div class="texts five-T">
                         <h3 style="margin-bottom: 10px;">Transaction Completed</h3>
                         <p>simply init dolor sit amet stoup swallow wearing sparrow of
@@ -174,7 +183,7 @@
         </div>
 
         <div class="ref">
-            <button>Meet The Spectacular Team behind It All</button>
+            <a href="/team"><button>Meet The Spectacular Team behind It All</button></a>
         </div>
     </div>
 </body>

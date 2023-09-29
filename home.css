@@ -427,3 +427,17 @@ header {
         width: 800px;
     }
 }
+
+.scrolBut {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
