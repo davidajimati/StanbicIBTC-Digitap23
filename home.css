@@ -275,12 +275,6 @@ header {
     align-items: center;
 }
 
-/* @media (min-width: 768px) {
-
-    
-}  */
-
-
 /* -----------FLOW CHART SECTION------ */
 
 .flow {
@@ -335,31 +329,25 @@ header {
     font-weight: 500;
 }
 
-/* .img {
-    width: 100px;
+.img {
+    min-width: 100px;
+    max-width: 100px;
     height: 100px;
     background-color: red;
     border-radius: 50%;
-} */
+}
 
-/* .inText {
+.dText {
     display: flex;
+    gap: 10px;
     flex-direction: row;
-    gap: 10px;
-} */
+}
 
-/* .dText {
-    display: flex;
-    gap: 10px;
-} */
-
-/* .ADoub {
+.ADoub {
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
-
-
+}
 
 /* -------REF----------- */
 .ref {
@@ -381,4 +369,11 @@ header {
     color: white;
     border: none;
     border-radius: 12px;
+}
+
+
+@media (min-width: 768px) {
+    .step {
+        width: 800px;
+    }
 }
