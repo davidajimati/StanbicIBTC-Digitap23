@@ -51,7 +51,8 @@
         padding: 10px;
         padding-bottom: 110px;
         display: flex;
-        width: 100%;
+        max-width: 100%;
+        width: 90%;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
@@ -81,5 +82,17 @@
         display: flex;
         gap: 10px;
         flex-direction: column;
+    }
+
+    body {
+        display: grid;
+        grid-template: 1fr/1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .grand-container {
+        max-width: 100%;
+        width: 100%;
     }
 }
