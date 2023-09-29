@@ -1,6 +1,6 @@
 /* -----------MOBILE------------ */
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 750px) {
 
     .d23 {
         display: none;
@@ -17,7 +17,7 @@
         margin: 0;
         padding: 1;
     }
-    
+
     .heroTexts h1 {
         font-size: 50px;
     }
@@ -37,36 +37,36 @@
     }
 
     .features {
-        gap: 40px;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         justify-items: center;
+        align-items: center;
         padding: 10px;
-        background-size: 30%;
+        background-size: 35%;
     }
 
     .feats {
-        margin: auto;
         height: fit-content;
         padding: 10px;
         padding-bottom: 110px;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        justify-content: center;
     }
 
     .flow {
-        /* background-color: #00005c;
+        background-color: #00005c;
         color: white;
-        padding: 20px; */
+        padding: 20px;
 
-        /* height: fit-content;
+        height: fit-content;
         display: flex;
-        flex-direction: row; */
-        /* max-width: 90%; */
-        /* grid-template: 50px auto / 1fr; */
-        /* gap: 30px; */
-        /* padding: 50px 10px; */
+        flex-direction: row;
+        max-width: 90%;
+        grid-template: 50px auto / 1fr;
+        gap: 30px;
+        padding: 50px 10px;
     }
 }
