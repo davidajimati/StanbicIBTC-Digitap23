@@ -245,9 +245,9 @@ header {
 
 .featbox {
     flex: 0;
-    min-height: 200px;
+    min-height: 250px;
     min-width: 300px;
-    max-height: 200px;
+    max-height: 250px;
     max-width: 300px;
     border: 1px solid #e7e7e7;
     border-radius: 10px;
@@ -419,4 +419,18 @@ header {
     .step {
         width: 800px;
     }
+}
+
+.scrolBut {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
