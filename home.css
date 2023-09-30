@@ -95,11 +95,6 @@ h4 {
     font-family: Clash Display;
 }
 
-h2,
-.flow h3 {
-    letter-spacing: 0.7px;
-}
-
 p {
     font-family: "MADEOuterSans-Thin";
 }
@@ -232,7 +227,7 @@ header {
 }
 
 .featbox h3 {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 500;
     color: #1A3D86;
     margin-bottom: 5px;
@@ -325,7 +320,7 @@ header {
 }
 
 .flow h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 
