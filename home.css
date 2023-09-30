@@ -459,7 +459,7 @@ ol li:before,
 .u1 ul li:before {
     content: "\2022";
     color: red;
-    /* font-size: 20px; */
+    font-size: 20px;
     font-weight: 900;
     left: 0;
     top: 50%;
